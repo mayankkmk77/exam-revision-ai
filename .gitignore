@@ -13,7 +13,7 @@ venv/
 # Uploaded files
 backend/uploads/*
 
-# IDE
+# VS Code
 .vscode/
 
 # OS
