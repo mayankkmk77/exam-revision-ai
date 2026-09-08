@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Exam Revision AI</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Exam Revision AI</h1>
+
+        <p class="subtitle">
+            Upload your study material and prepare smarter.
+        </p>
+
+        <div class="upload-box">
+
+            <h2>Upload Study Material</h2>
+
+            <input
+                type="file"
+                id="pdfFile"
+                accept=".pdf"
+            >
+
+            <button id="uploadButton">
+                Upload PDF
+            </button>
+
+        </div>
+
+        <div class="result-box">
+
+            <h2>Extracted Text</h2>
+
+            <pre id="result">
+No file uploaded yet.
+            </pre>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
